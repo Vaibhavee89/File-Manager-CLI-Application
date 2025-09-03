@@ -1,0 +1,2 @@
+# File Manager CLI Application
+A simple command-line interface (CLI) application for managing files, including creating, reading, updating, and deleting files. The application also logs all actions performed on the files.
