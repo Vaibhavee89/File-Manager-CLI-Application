@@ -1,0 +1,13 @@
+README.md
+setup.py
+file_manager/__init__.py
+file_manager/cli.py
+file_manager/logger.py
+file_manager/manager.py
+file_manager/persistence.py
+file_manager.egg-info/PKG-INFO
+file_manager.egg-info/SOURCES.txt
+file_manager.egg-info/dependency_links.txt
+file_manager.egg-info/entry_points.txt
+file_manager.egg-info/top_level.txt
+tests/test_manager.py

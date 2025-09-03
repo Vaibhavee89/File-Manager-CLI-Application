@@ -1,0 +1,14 @@
+{
+    "a.txt": {
+        "size": 1
+    },
+    "b.txt": {
+        "size": 1
+    },
+    "persist.txt": {
+        "size": 7
+    },
+    "test.txt": {
+        "size": 11
+    }
+}

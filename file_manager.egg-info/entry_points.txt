@@ -1,0 +1,2 @@
+[console_scripts]
+filemanager = file_manager.cli:main
