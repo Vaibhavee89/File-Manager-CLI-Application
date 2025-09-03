@@ -10,5 +10,8 @@
     },
     "test.txt": {
         "size": 11
+    },
+    "myfile.txt": {
+        "size": 0
     }
 }
