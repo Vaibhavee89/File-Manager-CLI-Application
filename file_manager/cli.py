@@ -7,11 +7,11 @@ except ImportError:
     from manager import FileManager
 
 def main():
-    fm = FileManager()
+    fm = FileManager() # Initialize the FileManager
 
-    parser = argparse.ArgumentParser(description="File Manager CLI")
+    parser = argparse.ArgumentParser(description="File Manager CLI") # Create the top-level parser
 
-    subparsers = parser.add_subparsers(dest="command", help="Available commands")
+    subparsers = parser.add_subparsers(dest="command", help="Available commands") # Create subparsers for each command
 
     # Create file
     create_parser = subparsers.add_parser("create", help="Create a new file")
