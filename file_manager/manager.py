@@ -7,7 +7,7 @@ try:
     from .persistence import save_data, load_data
     from .logger import log_action
 except ImportError:
-    # For direct script testing (not recommended for production)
+    # For directly script testing
     from persistence import save_data, load_data
     from logger import log_action
 
