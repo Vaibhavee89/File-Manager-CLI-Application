@@ -1,7 +1,10 @@
 # This would be the main entry point for the CLI application
 
 import argparse
-from .manager import FileManager
+try:
+    from .manager import FileManager
+except ImportError:
+    from manager import FileManager
 
 def main():
     fm = FileManager()
